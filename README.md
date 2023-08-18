@@ -15,31 +15,33 @@
    - Prerequisites
    - Installation Steps
 
-4. **User Management**
-   - User Registration
-   - User Login and Authentication
-   - Account Recovery
-
 5. **Account Management**
    - User Dashboard
    - Account Creation
+   - Internet Banking Registration
+   - Account Login & Authentication
+   - JWT State Management
    - Account Management
+   - Account Recovery
 
 6. **Fund Transfers**
    - Adding Payees
    - Fund Transfer Methods
    - Transaction Validation
 
+
 7. **Admin Dashboard**
    - Admin Home Page
-   - User Management
+   - Admin Login
+   - JWT State Management
+   - Editing & Deleting Acounts
 
 8. **Transaction History**
    - Viewing Transaction History
    - Transaction Details
 
 9. **Page Descriptions**
-   - User Management Pages
+   - Account Authentication Pages
    - Account Management Pages
    - Fund Transfer Pages
    - Admin Dashboard Pages
@@ -77,11 +79,15 @@ The frontend architecture of Online Banking System is built using React, a popul
 #### Technologies and Libraries Used
 - React
 - React Router
-- Redux (or other state management)
-- Axios (or other HTTP client)
+- LocalStorage (or other state management)
+- Axios (or other HTTP fetch)
+- nanoid (for short customer ID generation)
+- jwt-decode (for JWT authentication)
+- Jest (for react component testing)
 
 #### High-level Component Structure
-- Overview of the key components and their roles in the application.
+#### Overview of the key components and their roles in the application. 
+**React** - 
 - Hierarchical representation of the component structure.
 
 ### Backend (Spring Boot)
@@ -92,11 +98,14 @@ The backend of Online Banking System is powered by Spring Boot, a framework for 
 - Spring Boot
 - Spring Security
 - Spring Data JPA
+- Maria DB Driver
+- Spring Web
+- Validator
+- JJWT
+- JXB-API
+- MAVEN
 - RESTful APIs
 
-#### API Endpoints
-- List of API endpoints with brief descriptions.
-- Request and response examples.
 
 ### Database (MariaDB)
 
@@ -144,49 +153,38 @@ Follow these steps to set up [Project Name] on your local environment:
 
 ---
 
-## 4. User Management
+## 5. Account Management
 
 ### User Registration
 
-New users can register for an account using the following steps:
+New users can register for internet banking using the following steps:
 
 1. Navigate to the registration page.
-2. Fill in the required details (name, email, password, etc.).
+2. Fill in the required details (Account Number, password, etc.).
 3. Submit the registration form.
-4. Receive a confirmation email with an activation link.
-5. Click the activation link to verify the account.
 
 ### User Login and Authentication
 
 Registered users can log in using their credentials:
 
 1. Access the login page.
-2. Enter the registered email and password.
+2. Enter the customer ID and password.
 3. Click the "Login" button.
 4. Upon successful authentication, the user will be redirected to their dashboard.
 
 ### Account Recovery
 
-Users who forget their user ID, password, or face account locking can follow these recovery steps:
-
-1. **Forgot User ID:**
-   - Click the "Forgot User ID" link on the login page.
-   - Enter the registered email address.
-   - Receive an email with the user ID.
+Users who forget their password, can follow these recovery steps:
 
 2. **Forgot Password:**
    - Click the "Forgot Password" link on the login page.
-   - Provide the registered email address.
-   - Receive a password reset link via email.
-   - Follow the link to set a new password.
+   - Provide the Customer ID.
+   - Verify with OTP and redirect to create new password page.
+   - Set a new password and confirm the same.
 
 3. **Account Locked:**
-   - If the account is locked due to multiple failed login attempts, the user will see an "Account Locked" message.
-   - Follow the instructions provided to unlock the account.
-
----
-
-## 5. Account Management
+   - If the account is locked due to multiple failed login attempts, the users account can get locked by admin.
+   - Visit the branch and get your account unlocked by admin.
 
 ### User Dashboard
 
@@ -201,14 +199,10 @@ Once logged in, users are directed to their dashboard, where they can access var
 
 Users can open a new bank account by following these steps:
 
-1. Access the "Open an Account" page.
+1. Click the "Open an Account" button.
 2. Provide personal and account-related details.
 3. Agree to terms and conditions.
 4. Submit the application for review.
-
-### Account Management
-
-Users can manage their account by updating personal information, setting preferences, and making changes as needed.
 
 ## 6. Fund Transfers
 
