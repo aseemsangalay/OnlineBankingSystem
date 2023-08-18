@@ -225,21 +225,25 @@ Users can transfer funds to other accounts using various methods:
 
 ### Transaction Validation
 
-Before confirming a fund transfer, users should review the transaction details and confirm the recipient's information.
+Before confirming a fund transfer, users should review the transaction details and confirm the recipient's information. 
+- The upper limit of the transaction has been set as Rs 2,00,000.
+- Validating the amount whether its negatvie or greater than the account balance.
 
 ## 7. Admin Dashboard
 
-### Admin Home Page
+### Admin Login
 
-Administrators can access a dedicated dashboard to manage user accounts, transactions, and system settings.
+Administrators can access a dedicated dashboard to manage user accounts, and system settings.
+- Admin Login & Authentication
+- JWT State Management
 
-### User Management
+### Account Management
 
-Admins can perform various tasks related to user management:
+Admins can perform various tasks related to Account management:
 
-1. View Users: List of registered users with key details.
-2. Edit User: Modify user details (name, email, etc.).
-3. Delete User: Remove a user account from the system.
+1. View Account: List of registered users with key details.
+2. Edit Account: Modify user details (name, email, etc.).
+3. Delete Account: Remove a user account from the system.
 
 ## 8. Transaction History
 
@@ -247,9 +251,9 @@ Admins can perform various tasks related to user management:
 
 Users can view their transaction history by accessing the "Transaction History" section:
 
-1. Select the desired account (if applicable).
-2. Set the timeframe for the transactions.
-3. View a list of transactions with details.
+1. Auto fetching account using JWT token.
+2. Search for the desired transaction.
+3. View a list of transactions with details & status.
 
 ### Transaction Details
 
@@ -257,9 +261,11 @@ Clicking on a specific transaction provides users with detailed information abou
 
 1. Transaction ID
 2. Date and Time
-3. Sender and Receiver Details
-4. Transaction Amount
-5. Status (Pending, Completed, Failed, etc.)
+3. Remarks
+4. Sender and Receiver Details
+5. Transaction Amount
+6. Payment Method
+7. Status (Pending, Completed, Failed, etc.)
 
 ## 9. Page Descriptions
 
@@ -269,7 +275,6 @@ Clicking on a specific transaction provides users with detailed information abou
 - Login: User authentication page.
 - Open an Account: Account creation form.
 - Register for Internet Banking: Instructions for online registration.
-- Forgot User ID: Account recovery page for forgotten user IDs.
 - Forgot Password: Account recovery page for forgotten passwords.
 - Account Locked Page: Information about locked accounts.
 - Set New Password: Page for setting a new password after password reset.
@@ -307,7 +312,7 @@ Clicking on a specific transaction provides users with detailed information abou
 
 ## 11. Future Enhancements
 
-Consider the following potential improvements for [Project Name]:
+Consider the following potential improvements for HooBank:
 
 - **Multi-factor Authentication:** Enhance security with additional authentication methods.
 - **Real-time Notifications:** Notify users about account activities via email or SMS.
@@ -316,4 +321,4 @@ Consider the following potential improvements for [Project Name]:
 
 ## 12. Conclusion
 
-In conclusion, Online Banking System is a comprehensive banking application that offers users a range of functionalities, including user management, account management, fund transfers, and more. With its intuitive interface and robust features, [Project Name] aims to provide a seamless banking experience for both users and administrators.
+In conclusion, Online Banking System is a comprehensive banking application that offers users a range of functionalities, including user management, account management, fund transfers, and more. With its intuitive interface and robust features, HooBank aims to provide a seamless banking experience for both users and administrators.
