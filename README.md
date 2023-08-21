@@ -95,10 +95,17 @@ The frontend architecture of Online Banking System is built using React, a popul
 The backend of Online Banking System is powered by Spring Boot, a framework for building Java-based applications. It handles data processing, business logic, and communication with the frontend.
 
 #### Technologies and Libraries Used
-- Spring Boot
-- Spring Security
-- Spring Data JPA
-- Maria DB Driver
+- Spring Boot:
+   - Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications. It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
+
+- Spring Security:
+  - Spring Security is a framework which provides various security features like: authentication, authorization to create secure Java Enterprise Applications. It is a sub-project of Spring framework which was started in 2003 by Ben Alex. Later on, in 2004, It was released under the Apache License as Spring Security 2.0.0. It overcomes all the problems that come during creating non spring security applications and manage new server environment for the application.
+   
+- Spring Data JPA:
+  - JPA is a Java specification(Jakarta Persistence API) and it manages relational data in Java applications. To access and persist data between Java object(Plain Old Java object)/ class and relational database, we can use JPA. Upon  Object-Relation Mapping (ORM), it follows the mechanisms. It has the runtime EntityManager API and it is responsible for processing queries and transactions on the Java objects against the database. The main highlight is it uses JPQL (Java Persistent Query Language) which is platform-independent.
+    
+- Maria DB Driver:
+  -MariaDB Connector/ODBC is a database driver that uses the industry standard Open Database Connectivity (ODBC) API.
 - Spring Web
 - Validator
 - JJWT
