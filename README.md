@@ -316,9 +316,16 @@ Clicking on a specific transaction provides users with detailed information abou
 ## 10. Interface Screenshots
 
 ### User:
-- **Home Page**:
-  - ![Home Page](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/home%20page.png)
-
+- **Home Page**: ![Home Page](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/home%20page.png)
+- **Create Account**: ![Create Account](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/create_account.png)
+- **Login**: ![Login](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
+- **Register for Internet Banking:** ![Generate](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/generate_accNo.png)
+- **User Dashboard:** ![Dashboard](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard.png)
+- **Navbar:** ![Navbar](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/navbar.png)
+- **Transaction Type:** ![TransactionType](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/trans_type.png)
+- 
+- **Transaction Receipt:** ![Statemnnt](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/print%20statement.png)
+- 
 
 ## 10. Troubleshooting
 
