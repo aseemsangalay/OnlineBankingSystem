@@ -81,13 +81,13 @@ Online Banking System is a full-stack web application developed using React for 
 The frontend architecture of Online Banking System is built using React, a popular JavaScript library for building user interfaces. It utilizes various components, state management, and routing to create a seamless user experience.
 
 #### Technologies and Libraries Used
-- React
-- React Router
-- LocalStorage (or other state management)
-- Axios (or other HTTP fetch)
-- nanoid (for short customer ID generation)
-- jwt-decode (for JWT authentication)
-- Jest (for react component testing)
+- **React** is a JavaScript library for building user interfaces. It is used to build single-page applications and allows us to create reusable UI components.
+- **React Router** is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+- **LocalStorage** is a read-only property of the window interface that allows you to access a Storage object for the Document's origin; the stored data is saved across browser sessions. localStorage is similar to sessionStorage, except that while localStorage data has no expiration time, sessionStorage data gets cleared when the page session ends.
+- **Axios** is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests. It can make XMLHttpRequests from the browser, make http requests from node.js, supports the Promise API, intercept request and response, transform request and response data, cancel requests, and more.
+- **nanoid** is a tiny, secure, URL-friendly, unique string ID generator for JavaScript. It uses hardware random generator and can be used in clusters. It uses a larger alphabet than UUID (A-Za-z0-9_-), so ID size was reduced from 36 to 21 symbols.
+- **jwt-decode** is a small browser library that helps decoding JWTs token which are Base64Url encoded. However, this library doesn't validate the token; any well-formed JWT can be decoded. You should validate the token in your server-side logic by using something like express-jwt, koa-jwt, Owin Bearer JWT, etc²⁵.
+- **Jest** is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using Babel, TypeScript, Node, React, Angular, Vue and more. Jest aims to work out of the box, config-free, on most JavaScript projects. It can make tests which keep track of large objects with ease using snapshots. 
 
 #### High-level Component Structure
 #### Overview of the key components and their roles in the application. 
@@ -357,6 +357,11 @@ Clicking on a specific transaction provides users with detailed information abou
 
    - There are several techniques for Unit Testing, including Black Box Testing, White Box Testing, and Gray Box Testing. Black Box Testing is used in covering the unit tests for input, user interface, and output parts. White Box Testing is used in testing the functional behavior of the system by giving the input and checking the functionality output including the internal design structure and code of the modules. Gray Box Testing is used in executing the relevant test cases, test methods, test functions, and analyzing the code performance for the modules.
 
+**React Testing:**
+![ReactTesting](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/IMG-20230821-WA0002.jpg)
+
+**Spring Boot Testing:**
+![SpringBootTesting](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/spring%20boot%20testing.PNG)
 
 ## 12. Future Enhancements
 
