@@ -50,10 +50,12 @@
 10. **Troubleshooting**
    - Common Issues and Solutions
 
-11. **Future Enhancements**
+11. **Testing**
+
+12. **Future Enhancements**
    - List of Possible Improvements
 
-12. **Conclusion**
+13. **Conclusion**
    - Summary of the Project
 
 ---
@@ -317,7 +319,33 @@ Clicking on a specific transaction provides users with detailed information abou
 - Steps to address transaction errors.
 - Instructions for contacting support.
 
-## 11. Future Enhancements
+## 11. Testing
+
+- **API Testing:**
+     - API testing is a type of software testing that involves testing application programming interfaces (APIs) directly and as part of integration testing to determine if they meet expectations for functionality, reliability, performance, and security. Since APIs lack a GUI, API testing is performed at the message layer.
+
+   - API testing is used to determine whether APIs return the correct response (in the expected format) for a broad range of feasible requests, react properly to edge cases such as failures and unexpected/extreme inputs, deliver responses in an acceptable amount of time, and respond securely to potential security attacks.
+
+   - API testing involves testing APIs directly (in isolation) and as part of the end-to-end transactions exercised during integration testing. Beyond RESTful APIs, these transactions include multiple types of endpoints such as web services, ESBs, databases, mainframes, web UIs, and ERPs.
+
+   - API testing plays a central role in the API-first approach, as it enables teams to continuously verify the quality, health, and performance of their endpoints as they work to deliver a seamless digital experience. There are several types of API tests, and each one plays a distinct role in ensuring the API remains reliable. Traditionally, API testing has occurred at the end of the development phase, but an increasing number of teams are running tests earlier in the API lifecycle. This approach to API testing, which is known as "shifting left," supports rapid iteration by enabling teams to catch and fix issues as soon as they are introduced.
+
+- **Integration Testing:**
+   - Integration testing is a type of software testing where individual software modules are combined and tested as a group. It is conducted to evaluate the compliance of a system or component with specified functional requirements. The purpose of this level of testing is to expose defects in the interaction between these software modules when they are integrated¹. Integration Testing focuses on checking data communication amongst these modules.
+
+   - There are several types of Integration Testing, including Big Bang Testing, Incremental Testing, Bottom-up Integration Testing, Top-down Integration Testing, and Sandwich Testing. The goal of integration testing is to check the correctness of communication among all the modules. Once all the components or modules are working independently, then we need to check the data flow between the dependent modules is known as integration testing.
+
+   - Some best practices for Integration Testing include determining the Integration Test Strategy that could be adopted and later preparing the test cases and test data, studying the Architecture design of the Application and identifying the Critical Modules, designing test cases to verify each interface in detail, choosing input data for test case execution, performing positive and negative integration testing, and communicating bug reports to developers and fixing defects and retesting.
+
+- **Unit Testing:**
+   - Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers. Unit Tests isolate a section of code and verify its correctness. A unit may be an individual function, method, procedure, module, or object.
+
+   - Unit Testing is important because it helps to fix bugs early in the development cycle and save costs. It helps the developers to understand the testing code base and enables them to make changes quickly. Good unit tests serve as project documentation. Unit tests help with code re-use.
+
+   - There are several techniques for Unit Testing, including Black Box Testing, White Box Testing, and Gray Box Testing. Black Box Testing is used in covering the unit tests for input, user interface, and output parts. White Box Testing is used in testing the functional behavior of the system by giving the input and checking the functionality output including the internal design structure and code of the modules. Gray Box Testing is used in executing the relevant test cases, test methods, test functions, and analyzing the code performance for the modules.
+
+
+## 12. Future Enhancements
 
 Consider the following potential improvements for HooBank:
 
