@@ -46,16 +46,18 @@
    - Fund Transfer Pages
    - Admin Dashboard Pages
    - Transaction History Pages
+  
+10. **Interface Screenshots**
 
-10. **Troubleshooting**
+12. **Troubleshooting**
    - Common Issues and Solutions
 
-11. **Testing**
+13. **Testing**
 
-12. **Future Enhancements**
+14. **Future Enhancements**
    - List of Possible Improvements
 
-13. **Conclusion**
+15. **Conclusion**
    - Summary of the Project
 
 ---
@@ -309,6 +311,14 @@ Clicking on a specific transaction provides users with detailed information abou
 ### Transaction History Pages
 
 - Transaction History: Display of transaction history with filters.
+
+
+## 10. Interface Screenshots
+
+### User:
+- **Home Page**:
+  - ![Home Page](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/home%20page.png)
+
 
 ## 10. Troubleshooting
 
