@@ -168,6 +168,8 @@ Follow these steps to set up [Project Name] on your local environment:
 
 ### User Registration
 
+![Create Account](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/create_account.png)
+
 New users can register for internet banking using the following steps:
 
 1. Navigate to the registration page.
@@ -317,7 +319,7 @@ Clicking on a specific transaction provides users with detailed information abou
 
 ### User:
 - **Home Page**: ![Home Page](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/home%20page.png)
-- **Create Account**: ![Create Account](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/create_account.png)
+- 
 - **Login**: ![Login](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
 - **Register for Internet Banking:** ![Generate](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/generate_accNo.png)
 - **User Dashboard:** ![Dashboard](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard.png)
