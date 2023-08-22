@@ -168,7 +168,7 @@ Follow these steps to set up [Project Name] on your local environment:
 
 ### User Registration
 
-![Create Account](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/create_account.png)
+![Create Account](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/register.png)
 
 New users can register for internet banking using the following steps:
 
@@ -178,6 +178,7 @@ New users can register for internet banking using the following steps:
 
 ### User Login and Authentication
 
+![Login](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
 Registered users can log in using their credentials:
 
 1. Access the login page.
@@ -201,6 +202,8 @@ Users who forget their password, can follow these recovery steps:
 
 ### User Dashboard
 
+![Dashboard](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard.png)
+
 Once logged in, users are directed to their dashboard, where they can access various account-related features:
 
 1. Account Summary: An overview of their account balances and recent transactions.
@@ -210,6 +213,7 @@ Once logged in, users are directed to their dashboard, where they can access var
 
 ### Account Creation
 
+![Account Creation](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/create_account.png)
 Users can open a new bank account by following these steps:
 
 1. Click the "Open an Account" button.
@@ -217,10 +221,12 @@ Users can open a new bank account by following these steps:
 3. Agree to terms and conditions.
 4. Submit the application for review.
 
+![GenAccNo](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/generate_accNo.png)
+
 ## 6. Fund Transfers
 
 ### Adding Payees
-
+![Add Payee](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/add_beneficiary.png)
 Before initiating a fund transfer, users must add payees (other users' bank account details) using the "Add Payee" feature:
 
 1. Access the "Add Payee" page.
@@ -229,6 +235,8 @@ Before initiating a fund transfer, users must add payees (other users' bank acco
 4. Confirm the addition.
 
 ### Fund Transfer Methods
+
+![Transaction Type](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/trans_type.png)
 
 Users can transfer funds to other accounts using various methods:
 
@@ -314,20 +322,6 @@ Clicking on a specific transaction provides users with detailed information abou
 
 - Transaction History: Display of transaction history with filters.
 
-
-## 10. Interface Screenshots
-
-### User:
-- **Home Page**: ![Home Page](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/home%20page.png)
-- 
-- **Login**: ![Login](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
-- **Register for Internet Banking:** ![Generate](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/generate_accNo.png)
-- **User Dashboard:** ![Dashboard](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard.png)
-- **Navbar:** ![Navbar](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/navbar.png)
-- **Transaction Type:** ![TransactionType](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/trans_type.png)
-- 
-- **Transaction Receipt:** ![Statemnnt](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/print%20statement.png)
-- 
 
 ## 10. Troubleshooting
 
