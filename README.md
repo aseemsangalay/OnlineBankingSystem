@@ -99,24 +99,29 @@ The frontend architecture of Online Banking System is built using React, a popul
 The backend of Online Banking System is powered by Spring Boot, a framework for building Java-based applications. It handles data processing, business logic, and communication with the frontend.
 
 #### Technologies and Libraries Used
-- Spring Boot:
+- **Spring Boot:**
    - Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications. It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
 
 - Spring Security:
   - Spring Security is a framework which provides various security features like: authentication, authorization to create secure Java Enterprise Applications. It is a sub-project of Spring framework which was started in 2003 by Ben Alex. Later on, in 2004, It was released under the Apache License as Spring Security 2.0.0. It overcomes all the problems that come during creating non spring security applications and manage new server environment for the application.
    
-- Spring Data JPA:
+- **Spring Data JPA:**
   - JPA is a Java specification(Jakarta Persistence API) and it manages relational data in Java applications. To access and persist data between Java object(Plain Old Java object)/ class and relational database, we can use JPA. Upon  Object-Relation Mapping (ORM), it follows the mechanisms. It has the runtime EntityManager API and it is responsible for processing queries and transactions on the Java objects against the database. The main highlight is it uses JPQL (Java Persistent Query Language) which is platform-independent.
     
-- Maria DB Driver:
+- **Maria DB Driver:**
   -MariaDB Connector/ODBC is a database driver that uses the industry standard Open Database Connectivity (ODBC) API.
-- Spring Web
-- Validator
-- JJWT
-- JXB-API
-- MAVEN
-- RESTful APIs
 
+- **Spring Web**: Spring Web is a module of the Spring Framework that provides tools for developing web applications. It includes support for building traditional servlet-based web applications using Spring MVC, as well as reactive web applications using Spring WebFlux.
+
+- **Validator**: A validator is a tool or function that checks if a given input meets certain criteria. Validators can be used to ensure that user input is valid, or to check if data conforms to a specific format. There are many different types of validators, including those for checking HTML markup, string formats, and data types.
+
+- **JJWT**: JJWT (Java JSON Web Token) is a Java library for creating and verifying JSON Web Tokens (JWTs). JWTs are a compact and secure way of transmitting information between parties as a JSON object. JJWT provides an easy-to-use and understand API for working with JWTs on the Java Virtual Machine (JVM) and Android.
+
+- **JAXB-API**: JAXB (Java Architecture for XML Binding) is an API that provides tools for mapping between XML documents and Java objects. It allows developers to work with XML data in a more natural and convenient way by automatically generating Java classes from XML schemas or by using annotations to define the mapping between XML elements and Java classes.
+
+- **MAVEN**: Maven is a software project management and comprehension tool. It uses a Project Object Model (POM) to manage a project's build, dependencies, reporting, and documentation. Maven can automate many aspects of the build process, making it easier to manage complex projects.
+
+- **RESTful APIs**: RESTful APIs are web services that follow the architectural style of Representational State Transfer (REST). REST is an approach to designing APIs that emphasizes simplicity, scalability, and performance. RESTful APIs use standard HTTP methods (such as GET, POST, PUT, DELETE) to perform operations on resources, making them easy to use and understand.
 
 ### Database (MariaDB)
 
