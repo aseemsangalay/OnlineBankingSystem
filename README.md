@@ -29,7 +29,6 @@
    - Fund Transfer Methods
    - Transaction Validation
 
-
 7. **Admin Dashboard**
    - Admin Home Page
    - Admin Login
@@ -51,7 +50,6 @@
    - Common Issues and Solutions
 
 12. **Testing**
-
 
 13. **Future Enhancements**
    - List of Possible Improvements
@@ -88,11 +86,6 @@ The frontend architecture of Online Banking System is built using React, a popul
 - **jwt-decode** is a small browser library that helps decoding JWTs token which are Base64Url encoded. However, this library doesn't validate the token; any well-formed JWT can be decoded. You should validate the token in your server-side logic by using something like express-jwt, koa-jwt, Owin Bearer JWT, etc²⁵.
 - **Jest** is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using Babel, TypeScript, Node, React, Angular, Vue and more. Jest aims to work out of the box, config-free, on most JavaScript projects. It can make tests which keep track of large objects with ease using snapshots. 
 
-#### High-level Component Structure
-#### Overview of the key components and their roles in the application. 
-**React** - 
-- Hierarchical representation of the component structure.
-
 ### Backend (Spring Boot)
 
 The backend of Online Banking System is powered by Spring Boot, a framework for building Java-based applications. It handles data processing, business logic, and communication with the frontend.
@@ -101,7 +94,7 @@ The backend of Online Banking System is powered by Spring Boot, a framework for 
 - **Spring Boot:**
    - Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications. It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
 
-- Spring Security:
+- **Spring Security:**
   - Spring Security is a framework which provides various security features like: authentication, authorization to create secure Java Enterprise Applications. It is a sub-project of Spring framework which was started in 2003 by Ben Alex. Later on, in 2004, It was released under the Apache License as Spring Security 2.0.0. It overcomes all the problems that come during creating non spring security applications and manage new server environment for the application.
    
 - **Spring Data JPA:**
@@ -127,8 +120,6 @@ The backend of Online Banking System is powered by Spring Boot, a framework for 
 The application's data is stored and managed using MariaDB, a relational database management system.
 
 #### Database Schema
-- Visual representation of the database schema.
-- Explanation of key tables and their relationships.
 
   ![UML](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/UML-class.jpg)
 
@@ -147,11 +138,12 @@ Before setting up Online Banking System, ensure you have the following software/
 
 ### Installation Steps
 
-Follow these steps to set up [Project Name] on your local environment:
+Follow these steps to set up HooBank on your local environment:
 
 1. **Clone the Repository:**
    ```
-   git clone [repository-url]
+   git clone https://github.com/adil-01/hoobank_backend
+   git clone https://github.com/adil-01/hoobank_frontend
    cd [project-directory]
    ```
 
@@ -166,7 +158,7 @@ Follow these steps to set up [Project Name] on your local environment:
    - Start the development server: `npm start`
 
 4. **Access the Application:**
-   Open your web browser and visit `http://localhost:3000` to access [Project Name].
+   Open your web browser and visit `http://localhost:3000` to access HooBank.
 
 ---
 
@@ -256,7 +248,7 @@ Users can transfer funds to other accounts using various methods:
 
 ### Transaction Validation
 
-!{TransactionValidation](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/transaction_validation.png)
+![TransactionValidation](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/transaction_validation.png)
 
 Before confirming a fund transfer, users should review the transaction details and confirm the recipient's information. 
 - The upper limit of the transaction has been set as Rs 2,00,000.
@@ -264,7 +256,7 @@ Before confirming a fund transfer, users should review the transaction details a
 
 ## 7. Admin Dashboard
 
-![Admin](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
+![Admin](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/admin_page.png)
 
 ### Admin Login
 
@@ -284,7 +276,7 @@ Admins can perform various tasks related to Account management:
 
 ### Viewing Transaction History
 
-~[TransactionHistory](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard_transaction.png)
+![TransactionHistory](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard_transaction.png)
 
 Users can view their transaction history by accessing the "Transaction History" section:
 
