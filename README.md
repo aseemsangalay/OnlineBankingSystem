@@ -286,6 +286,7 @@ Users can view their transaction history by accessing the "Transaction History" 
 
 ### Transaction Details
 
+![TransactionDetails](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/trans_details.png)
 Clicking on a specific transaction provides users with detailed information about that transaction:
 
 1. Transaction ID
