@@ -144,7 +144,6 @@ Follow these steps to set up HooBank on your local environment:
    ```
    git clone https://github.com/adil-01/hoobank_backend
    git clone https://github.com/adil-01/hoobank_frontend
-   cd [project-directory]
    ```
 
 2. **Backend Setup:**
@@ -153,7 +152,7 @@ Follow these steps to set up HooBank on your local environment:
    - Run the Spring Boot application.
 
 3. **Frontend Setup:**
-   - Navigate to the frontend directory: `cd [project-directory]/frontend`
+   - Navigate to the frontend directory: `cd hoobank_frontend`
    - Install frontend dependencies: `npm install`
    - Start the development server: `npm start`
 
