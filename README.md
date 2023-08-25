@@ -130,6 +130,8 @@ The application's data is stored and managed using MariaDB, a relational databas
 - Visual representation of the database schema.
 - Explanation of key tables and their relationships.
 
+  ![UML](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/UML-class.jpg)
+
 ---
 
 ## 3. Installation and Setup
