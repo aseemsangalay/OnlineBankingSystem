@@ -47,17 +47,16 @@
    - Admin Dashboard Pages
    - Transaction History Pages
   
-10. **Interface Screenshots**
-
-12. **Troubleshooting**
+11. **Troubleshooting**
    - Common Issues and Solutions
 
-13. **Testing**
+12. **Testing**
 
-14. **Future Enhancements**
+
+13. **Future Enhancements**
    - List of Possible Improvements
 
-15. **Conclusion**
+14. **Conclusion**
    - Summary of the Project
 
 ---
@@ -184,6 +183,7 @@ New users can register for internet banking using the following steps:
 ### User Login and Authentication
 
 ![Login](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
+
 Registered users can log in using their credentials:
 
 1. Access the login page.
@@ -196,6 +196,9 @@ Registered users can log in using their credentials:
 Users who forget their password, can follow these recovery steps:
 
 2. **Forgot Password:**
+
+![fORGOTpASSWORD](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/forgot_password2.png)
+
    - Click the "Forgot Password" link on the login page.
    - Provide the Customer ID.
    - Verify with OTP and redirect to create new password page.
@@ -251,11 +254,15 @@ Users can transfer funds to other accounts using various methods:
 
 ### Transaction Validation
 
+!{TransactionValidation](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/transaction_validation.png)
+
 Before confirming a fund transfer, users should review the transaction details and confirm the recipient's information. 
 - The upper limit of the transaction has been set as Rs 2,00,000.
 - Validating the amount whether its negatvie or greater than the account balance.
 
 ## 7. Admin Dashboard
+
+![Admin](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/login.png)
 
 ### Admin Login
 
@@ -274,6 +281,8 @@ Admins can perform various tasks related to Account management:
 ## 8. Transaction History
 
 ### Viewing Transaction History
+
+~[TransactionHistory](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/dashboard_transaction.png)
 
 Users can view their transaction history by accessing the "Transaction History" section:
 
