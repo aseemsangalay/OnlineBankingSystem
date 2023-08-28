@@ -416,11 +416,7 @@ Clicking on a specific transaction provides users with detailed information abou
 
 A **Progressive Web App (PWA)** is a type of application built using web technologies, but provides a user experience similar to that of a platform-specific app. PWAs can run on multiple platforms and devices from a single codebase, just like a website. They can also be installed on the device, operate offline and in the background, and integrate with the device and other installed apps.
 
-PWAs combine the best features of traditional websites and platform-specific apps. They are developed using standard web platform technologies such as HTML, CSS, and JavaScript, so they can run on multiple operating systems and device classes from a single codebase. They can also be accessed directly from the web.
-
-In addition to the benefits of websites, PWAs also have many of the benefits of platform-specific apps. They can be installed on the device, providing easy access for users. They are able to operate offline and in the background, allowing for a good user experience even when the device has intermittent network connectivity. They can also implement their own distinctive UI and integrate with the host operating system.
-
-Overall, PWAs provide a native-like experience to users on supporting devices while being adaptable to different browsers and devices.
+Overall, PWAs provide a native-like experience to users on supporting devices while being adaptable to different browsers and devices. We have implemented using `serviceWorker.js` by registering, fetching and unregister properties we will store the cache version of website and can use in offline mode in mobile devices also.
 
 
 ## 13. Future Enhancements
