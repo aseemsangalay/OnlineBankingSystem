@@ -123,6 +123,46 @@ The application's data is stored and managed using MariaDB, a relational databas
 
   ![UML](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/UML-class.jpg)
 
+
+- **Transactions** table:
+  - `Transaction_id`: Unique identifier for each transaction.
+  - `Amount`: The monetary value of the transaction.
+  - `Description`: A brief description of the transaction.
+  - `Receiver_acc_number`: The account number of the receiver of the transaction.
+  - `Sender_acc_number`: The account number of the sender of the transaction.
+  - `Transaction_date`: The date on which the transaction occurred.
+  - `Transaction_type`: The type of transaction (e.g. deposit, withdrawal, transfer).
+
+- **Payee** table:
+  - `Payee_id`: Unique identifier for each payee.
+  - `Bank_name`: The name of the bank associated with the payee.
+  - `Nick_name`: A nickname for the payee, as specified by the user.
+  - `Payee_name`: The name of the payee.
+  - `Receiver_acc_number`: The account number of the receiver associated with the payee.
+  - `Sender_acc_number`: The account number of the sender associated with the payee.
+
+- **Account** table:
+  - `Account_number`: Unique identifier for each account.
+  - `First_name`: The first name of the account holder.
+  - `Last_name`: The last name of the account holder.
+  - `Middle_name`: The middle name of the account holder.
+  - `Aadhar_number`: The Aadhar number of the account holder (a unique identification number issued by the Indian government).
+  - `PAN_number`: The PAN (Permanent Account Number) of the account holder (a unique identification number used for tax purposes in India).
+  - `Account_type`: The type of account (e.g. savings, checking).
+  - `Agree`: Whether or not the account holder has agreed to the terms and conditions.
+  - `Annual_income`: The annual income of the account holder.
+  - `Balance`: The current balance of the account.
+  - `Customer_id`: Unique identifier for each customer associated with an account.
+  - `DoB`: The date of birth of the account holder.
+  - `Password`: The password associated with the account.
+  - `Occupation`: The occupation of the account holder.
+  - `Opening_date`: The date on which the account was opened.
+  - `Mobile_num`: The mobile number associated with the account.
+  - `Permanent_address`: The permanent address of the account holder.
+  - `Residential_address`: The residential address of the account holder.
+  - `Registration_date`: The date on which the account was registered.
+  - `Is_locked`: Whether or not the account is locked.
+
 ---
 
 ## 3. Installation and Setup
@@ -371,7 +411,19 @@ Clicking on a specific transaction provides users with detailed information abou
 **Spring Boot Testing:**
 ![SpringBootTesting](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/spring%20boot%20testing.PNG)
 
-## 12. Future Enhancements
+
+## 12. PWA (Progressive Web App)
+
+A **Progressive Web App (PWA)** is a type of application built using web technologies, but provides a user experience similar to that of a platform-specific app. PWAs can run on multiple platforms and devices from a single codebase, just like a website. They can also be installed on the device, operate offline and in the background, and integrate with the device and other installed apps.
+
+PWAs combine the best features of traditional websites and platform-specific apps. They are developed using standard web platform technologies such as HTML, CSS, and JavaScript, so they can run on multiple operating systems and device classes from a single codebase. They can also be accessed directly from the web.
+
+In addition to the benefits of websites, PWAs also have many of the benefits of platform-specific apps. They can be installed on the device, providing easy access for users. They are able to operate offline and in the background, allowing for a good user experience even when the device has intermittent network connectivity. They can also implement their own distinctive UI and integrate with the host operating system.
+
+Overall, PWAs provide a native-like experience to users on supporting devices while being adaptable to different browsers and devices.
+
+
+## 13. Future Enhancements
 
 Consider the following potential improvements for HooBank:
 
@@ -380,6 +432,6 @@ Consider the following potential improvements for HooBank:
 - **International Fund Transfers:** Enable cross-border transfers.
 - **Enhanced Admin Tools:** Provide more robust user management features for administrators.
 
-## 12. Conclusion
+## 14. Conclusion
 
 In conclusion, Online Banking System is a comprehensive banking application that offers users a range of functionalities, including user management, account management, fund transfers, and more. With its intuitive interface and robust features, HooBank aims to provide a seamless banking experience for both users and administrators.
