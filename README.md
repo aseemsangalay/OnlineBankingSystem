@@ -420,6 +420,8 @@ A **Progressive Web App (PWA)** is a type of application built using web technol
 
 ![PWA](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/HooBank%20PWA%20Summary_page-0001.jpg)
 
+We have tested the PWA functionalitiese using Google Chrome Developer Tools using Lighthouse tool and the report is shown above.
+
 Overall, PWAs provide a native-like experience to users on supporting devices while being adaptable to different browsers and devices. We have implemented using `serviceWorker.js` by registering, fetching and unregister properties we will store the cache version of website and can use in offline mode in mobile devices also.
 
 
