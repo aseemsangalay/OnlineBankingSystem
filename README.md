@@ -46,10 +46,12 @@
    - Admin Dashboard Pages
    - Transaction History Pages
   
-11. **Troubleshooting**
+10. **Troubleshooting**
    - Common Issues and Solutions
 
-12. **Testing**
+11. **Testing**
+
+12. **PWA**
 
 13. **Future Enhancements**
    - List of Possible Improvements
@@ -415,6 +417,8 @@ Clicking on a specific transaction provides users with detailed information abou
 ## 12. PWA (Progressive Web App)
 
 A **Progressive Web App (PWA)** is a type of application built using web technologies, but provides a user experience similar to that of a platform-specific app. PWAs can run on multiple platforms and devices from a single codebase, just like a website. They can also be installed on the device, operate offline and in the background, and integrate with the device and other installed apps.
+
+![PWA](https://github.com/aseemsangalay/OnlineBankingSystem/blob/main/HooBank%20PWA%20Summary_page-0001.jpg)
 
 Overall, PWAs provide a native-like experience to users on supporting devices while being adaptable to different browsers and devices. We have implemented using `serviceWorker.js` by registering, fetching and unregister properties we will store the cache version of website and can use in offline mode in mobile devices also.
 
