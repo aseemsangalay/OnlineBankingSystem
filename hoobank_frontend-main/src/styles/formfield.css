@@ -1,0 +1,30 @@
+.input_label {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.label_name{
+    color: #808191 ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.form_input{
+    padding: 10px 8px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #212121;
+    background-color: transparent;
+    color: #313131;
+    /* border-radius: 10px; */
+}
+
+.form_input::placeholder{
+    color: #9ea0a3;
+}
+
+.form_input:focus{
+    outline: 1px solid #fff;
+}

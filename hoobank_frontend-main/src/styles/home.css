@@ -1,0 +1,30 @@
+.home_wrap {
+    background: #00040f;
+    width: 100%;
+    height: 100vh;
+}
+
+.home_image{
+    width: 500px;
+    object-fit: cover;
+}
+
+.home_elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_text{
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.tagline {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.green {
+    color: #3ac2d3;
+}

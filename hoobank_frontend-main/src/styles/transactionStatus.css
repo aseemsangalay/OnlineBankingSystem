@@ -1,0 +1,139 @@
+.status_bag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status_wrap {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    max-height: 80vh;
+    margin-top: calc(100vh - 89vh - 20px);
+    background: #fff;
+    padding: 20px;
+    /* border: 1px solid #999; */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.066);
+    overflow: auto;
+}
+
+.success {
+    font-size: 32px;
+    color: #47D764;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.mid_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.account_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.account_number{
+    color: #686868;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.dot_line{
+    color: #898989;
+    letter-spacing: 5px;
+}
+
+.favicon{
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 3px solid #31311a;
+}
+
+.lower_div{
+    margin-top: 30px;
+}
+
+.trans_info_heading{
+    color: #555555;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.trans_infos{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.trans_labels{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.trans_values{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.trans_info_label{
+    color: #919191;
+    margin-top: 10px;
+}
+
+.trans_info_value{
+    color: #222222;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.only_print{
+    display: none;
+}
+
+.go_to{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 10px;
+    background-color: #1d1d1d;
+    border-radius: 6px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.small_img {
+    height: 25px;
+}
+
+@page {
+    size: auto;
+    margin: 3mm;
+}
+
+@media print {
+    .only_print{
+        display: block;
+        print-color-adjust: exact;
+    }
+    .no_print{
+        display: none;
+    }
+    .status_wrap{
+        width: 100%;
+        box-shadow: none;
+    }
+}

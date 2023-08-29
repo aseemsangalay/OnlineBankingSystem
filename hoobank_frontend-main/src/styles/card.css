@@ -1,0 +1,71 @@
+.card_wrap {
+    width: 200px;
+    background-color: #efefef;
+    border-radius: 6px;
+    margin: 10px;
+    margin-top: 0;
+    padding: 14px;
+    padding-left: 20px;
+}
+
+.card_wrap_dark {
+    width: 200px;
+    background-color: #545454;
+    border-radius: 6px;
+    margin: 10px;
+    margin-top: 0;
+    padding: 14px;
+    padding-left: 20px;
+}
+
+.card_icon {
+    background: #e6e6e6;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_icon_dark {
+    background: #25bec93e;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa{
+    color: #454545;
+    font-size: 19px;
+}
+
+.fa_dark{
+    color: #25c9c9 !important;
+    font-size: 19px;
+}
+
+.card_label{
+    color: #595959;
+}
+
+.card_label_dark {
+    color: #cecece;
+}
+
+.card_info {
+    color: #313131;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card_info_dark {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.about_heading {
+    font-size: 40px;
+}
+
+.about_desc{
+    font-size: 15px;
+    color: #999;
+}
+
+.pay_card{
+    height: 300px;
+    object-fit: cover;
+    margin-left: 60px;
+}
